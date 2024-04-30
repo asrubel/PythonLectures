@@ -1,0 +1,10 @@
+root - WARNING - First message in log file - 11926 - 30-Apr-24 13:57:04
+root - ERROR - Second message - 11926 - 30-Apr-24 13:57:04
+root - ERROR - MyLogger caused error - 11926 - 30-Apr-24 13:57:04
+root - ERROR - Division by zero - 11926 - 30-Apr-24 13:57:04
+root - ERROR - Zero division occurred! - 11926 - 30-Apr-24 13:57:04
+Traceback (most recent call last):
+  File "/Users/oleksiirubel/PycharmProjects/pythonLectures/lec_29_logging/lecture_29_file_logging.py", line 14, in <module>
+    c = 5 / 0
+        ~~^~~
+ZeroDivisionError: division by zero
